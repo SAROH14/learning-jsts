@@ -1,0 +1,1 @@
+var a = 9; // var a is declaring the variable and = 9 initializes it.
