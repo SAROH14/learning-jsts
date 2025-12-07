@@ -6,14 +6,14 @@ function fun1() {
 
 function fun2(){
     let output = "";
-    if (typeof global != "undefined"){
-        output += "global: " + global;
+    if (typeof global != "undefined"){ //if global is not undefined
+        output += "global: " + global; //output= global: 10
     }
-    if (typeof oopsGlobal != "undefined"){
-        output += "oopsGlobal: " + oopsGlobal; 
+    if (typeof oopsGlobal != "undefined"){  //if oopsGlobal is not undefined
+        output += "oopsGlobal: " + oopsGlobal;  //output = oopsGlobal: 5
     }
 
-    console.log(output);
+    console.log(output); 
 }
 
 fun1();
